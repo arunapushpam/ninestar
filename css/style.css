@@ -5,7 +5,13 @@ padding:0;
 box-sizing:border-box;	
 }
 
-
+.header{
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	z-index:3;
+}
 .get{
 	background-color:#eb5d1e;
 	color:white;
@@ -435,6 +441,7 @@ box-sizing:border-box;
 	background-color:#FEF8F5;
 	padding-top:2rem;
 	padding-bottom:5rem;
+	
 }
 @media(min-width:360px){
 	.use{
